@@ -1,0 +1,94 @@
+body{
+    background-color: #F8F8F8;
+}
+
+#f img{
+    width: 120px;
+    height: 35px;
+}
+.fb{
+    color:white;
+    float:right;
+    background-color: #1750B3;
+    margin-left: 20px;
+    margin-top: 9px;
+    padding: 12px 32px;
+    font-family: "Comic Sans MS";
+    border-radius: 16px;
+    width: 150px;
+}
+.f1{
+    color: #2d2c2c;
+    float: right;
+    margin-left: 20px;
+    margin-top:9px;
+    font-size: 23px;
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.text-container{
+    margin-left: 200px;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#fp2{
+    color: #1750B3;
+    margin-left: 20px;
+    font-size: 45px;
+    font-family: "Comic Sans MS", fantasy;
+    float: right;
+    font-weight: bold;
+}
+
+.fb2{
+    color: white;
+    background-color:#1750B3;
+    margin-left: 20px;
+    padding:12px 32px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    width: 200px;
+    font-family: "Comic Sans MS";
+}
+.container image{
+    /*margin-top: 10px;*/
+}
+
+.container2{
+    margin-top: 10px;
+    background-color: #235CBE;
+    overflow: hidden;
+    /*resize: block;*/
+}
+#fp3{
+    color: white;
+    font-family: "Comic Sans MS";
+}
+.container2 img{
+    float: left;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+#d1{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#fp4{
+    font-size: 80px;
+    color: white;
+    font-family: "Comic Sans MS";
+    margin-top: 30px;
+}

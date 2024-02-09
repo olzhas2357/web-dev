@@ -1,0 +1,57 @@
+#microsoft img {
+    width: 100px;
+}
+#microsoft a{
+    color: #333333;
+    font-size: 24px;
+}
+.d{
+    float: right;
+}
+#learn{
+    color: white;
+}
+#first{
+    background-color: #7339ea;
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+#second {
+    background-image: url("image/first.png");
+    height: 420px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.txt1{
+    color: #dbdcf5;
+    font-size: 30px;
+    font-family:sans-serif;
+}
+.txt2{
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+#start{
+    color:#fff;
+    font-size:8px;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    background: #121b7e;
+    font-weight: 200;
+    display: inline-block;
+    margin-bottom:5px;
+}
+#download{
+    color:#fff;
+    font-size:8px;
+    text-decoration: none;
+    padding: 15px 20px;
+    background: #2902a1;
+    font-weight: 200;
+    display: inline-block;
+    margin-bottom:5px;
+}
