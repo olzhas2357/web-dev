@@ -1,0 +1,27 @@
+button{
+  margin-right: 15px;
+}
+img{
+  width:150px;
+  height:auto;
+}
+.phone img{
+  width: 150px;
+  height: auto;
+}
+.phone{
+  border: 1px solid #bdbdbd; /* Добавляем границу толщиной 1 пиксель и цвета #ccc */
+  max-width: 400px; /* Ограничиваем максимальную ширину элемента до 400 пикселей */
+  padding: 10px; /* Добавляем отступы внутри элемента для улучшения визуального восприятия */
+  margin: 0 auto; /* Центрируем элемент по горизонтали */
+}
+.phone div {
+  margin-top: 10px; /* Добавляем отступ сверху, чтобы создать пространство между изображением и описанием */
+}
+.checkout {
+  width: 65px;
+  height: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
