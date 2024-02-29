@@ -1,0 +1,11 @@
+<h2>{{category?.name}}</h2>
+<ul>
+  <dt class="product" *ngFor="let pro of product">
+    <img id="imgPro" src="{{pro.img}}" alt="image">
+    <p>{{pro.title}}</p>
+    <img id = "imgStar" src="assets/star.png" alt="rating">
+    <i>{{pro.like}}</i>
+    <p>{{pro.price}} KZT</p>
+    <button class="btn btn-primary">В корзину</button>
+  </dt>
+</ul>
