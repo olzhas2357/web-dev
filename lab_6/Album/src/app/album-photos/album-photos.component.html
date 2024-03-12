@@ -1,0 +1,11 @@
+<div>
+  <ul>
+    <button class="btn btn-secondary" (click)="goBack()">Back</button>
+    <ol *ngFor="let photo of photos">
+      <p>{{photo.id}})</p>
+      <p>{{photo.title}}</p>
+      <img id="albumImg" src="{{photo.url}}" alt="photo">
+    </ol>
+  </ul>
+</div>
+
