@@ -1,0 +1,36 @@
+<img class="kaspi" src="assets/kaspi.png" alt="kaspi">
+
+<img (click)="checkout()" class="checkout" src="assets/checkout.png" alt="checkout">
+<div>
+  <br>
+  <h2>Products</h2>
+  <br>
+  <div class="phone">
+    <img src="{{image}}" alt="phone">
+    <div>
+      {{name}}    <small><strong>{{price}} KZT</strong></small>
+      <ol>
+        <li>технология: <strong>{{technology}}</strong></li>
+        <li>цвет: <strong>{{ description?.color }}</strong></li>
+        <li>диагонал: <strong>{{description?.diagonal}}</strong></li>
+        <li>емкость аккумулятора: <strong>{{description?.battery_capacity}}</strong></li>
+        <li>объем встроенной памяти: <strong>{{description?.built_in_memory}}</strong></li>
+      </ol>
+      <h4>Характеристики Смартфон</h4>
+      <div>
+        <ul>
+          <li *ngFor="let opt of options">{{opt}}</li>
+        </ul>
+      </div>
+      <button class="btn btn-danger" (click)="shareWithTelegram()">Share</button>
+      <button class="btn btn-warning" (click)="openKaspi()">Kaspi.kz</button>
+    </div>
+  </div>
+
+
+  <h5>Выбирите телефон</h5>
+  <button class="btn btn-danger" (click)="phoneSelect('sam')">Samsung</button>
+  <button class="btn btn-danger" (click)="phoneSelect('xiao')">Xiaomi</button>
+  <button class="btn btn-danger" (click)="phoneSelect('ip')">iPhone</button>
+
+</div>

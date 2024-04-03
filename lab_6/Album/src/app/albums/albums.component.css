@@ -1,0 +1,15 @@
+div ol{
+  width: 300px;
+  height: 200px;
+  background-color: #a9a9ea;
+  margin: 5px;
+  border-radius: 10px;
+}
+ul{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 3px;
+}
+button{
+  margin-right: 10px;
+}

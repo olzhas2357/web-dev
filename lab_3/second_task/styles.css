@@ -1,0 +1,62 @@
+.first {
+    background-color: #100e0e; /* Изменен цвет фона */
+    height: 4vh; /* Уменьшена высота для лучшей пропорции */
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: left; /* Центрирование содержимого по горизонтали */
+    padding: 0 60px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#f {
+    font-size: 12px; /* Уменьшен размер текста */
+    color: #7a7474;
+    margin:0; /* Убраны отступы */
+    font-family: Helvetica, sans-serif;
+}
+.second {
+    position: relative;
+    padding-top: 60px;
+    text-align: center;
+}
+
+#s {
+    position: absolute;
+    top: 0;
+    left: 40%;
+    transform: translateX(-100%);
+    font-size: 34px;
+    margin-top: 60px; /* Убираем внешние отступы, чтобы параграф был ближе к верхней границе .second */
+}
+#nameInput{
+    margin-top: 60px;
+    max-width: 300px;
+    width: 100%;
+    margin-left:20px;
+    padding: 12px;
+    border-color: #bbb4a4;
+    border-radius: 13px;
+}
+#Button{
+    margin-top: 60px;
+    font-size: 12px;
+    margin-left: 13px;
+    background-color: #1a6a91;
+    color: white;
+    padding: 10px;
+    width: 72px;
+    border-radius: 7px;
+}
+.delete-button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    background-image: url('delete.png'); /* Путь к вашему изображению */
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 52px;
+    width: 20px;
+    height: 20px;
+}

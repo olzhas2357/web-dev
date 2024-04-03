@@ -1,0 +1,11 @@
+<div>
+  <ul>
+    <ol *ngFor="let album of albums">
+      <p>{{album.id}}</p>
+      <p>{{album.title}} </p>
+      <button class="btn btn-light" (click)="openAlbumDetail(album.id)">Go</button>
+      <button class="btn btn-light" (click)="delete(album.id)">Delete</button>
+    </ol>
+  </ul>
+</div>
+

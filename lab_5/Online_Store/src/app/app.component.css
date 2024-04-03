@@ -1,0 +1,16 @@
+button{
+  margin-top: 10px;
+  height: 45px;
+  width: 145px;
+  margin-right: 10px;
+}
+#searchInput{
+  margin-right: 10px;
+  margin-top: 10px;
+  height: 45px;
+  width: 250px;
+}
+#imgStar{
+  width: 16px;
+  height: 16px;
+}

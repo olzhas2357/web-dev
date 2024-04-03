@@ -1,0 +1,5 @@
+<ul>
+  <dt *ngFor="let cat of category">
+    <button [routerLink]="['/catalog', cat.id]" class="btn btn-light">{{cat.name}}  -></button>
+  </dt>
+</ul>

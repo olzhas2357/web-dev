@@ -1,0 +1,7 @@
+<div>
+  <h5>id: {{album?.id}}</h5>
+  <input type="text" id="albumTitle" [(ngModel)]="editedTitle">
+  <button class="btn btn-primary" (click)="saveTitle()">Save</button>
+  <button class="btn btn-secondary" (click)="goBack()">Back</button>
+  <button class="btn btn-danger" (click)="goPhotos()">Go Photo</button>
+</div>
